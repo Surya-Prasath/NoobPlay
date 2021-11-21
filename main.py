@@ -4,7 +4,7 @@ import requests as r
 from datetime import datetime, timedelta
 
 CYAN, GREEN, FAIL, ENDC = '\033[96m', '\033[92m', '\033[91m', '\033[0m'
-url, link = "https://studentportal.hindustanuniv.ac.in/search/studentReg.htm", [REDACTED]
+url, link = [REDACTED], [REDACTED]
 
 class multiErp(threading.Thread):
     content = None
